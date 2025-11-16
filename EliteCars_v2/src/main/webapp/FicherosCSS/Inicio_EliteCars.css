@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;/*significa que no habrá espacio entre el contenido del cuerpo y el borde del cuerpo.*/
+  }
+
+  header {
+    background-color: #292525;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  section {
+    padding: 15px; /*habrá un espacio de 15px entre el borde del contenido y el borde del elemento <section>*/
+  }
+  form {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto; /*Esta propiedad centra el formulario horizontalmente en su contenedor. El valor 0 elimina cualquier margen superior e inferior, mientras que auto ajusta automáticamente los márgenes izquierdo y derecho para centrar el formulario.*/
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);/*Esta propiedad aplica una sombra al formulario. Los primeros dos valores 0px 0px definen el desplazamiento horizontal y vertical de la sombra, respectivamente. El tercer valor 10px define el desenfoque de la sombra, y el último valor rgba(0,0,0,0.15) define el color de la sombra*/
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #292525;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;/*Esta propiedad cambia el cursor a un puntero cuando se pasa por encima del botón*/
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #007d66;
+}
+
+form {
+  text-align: center;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;/*Esta propiedad combina las celdas adyacentes de la tabla en una única celda con una única línea de borde, en lugar de cada celda tener su propio borde separado.*/
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #292525;
+  color: white;
+}
+tr:hover {background-color: #f5f5f5;}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;/*hace que los elementos hijos se distribuyan de manera uniforme en la línea, con un espacio igual alrededor de cada elemento.*/
+  margin-top: 20px;
+}
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
