@@ -77,8 +77,23 @@ EliteCars/
 │   │   └── InicioEliteCars.css
 │   └── ImagenesCoches/        # Imágenes de los vehículos y logo
 ├── Admin/                     # Panel de administración
+├── EliteCars_v2/              # Versión Java (JSP + Servlets + MariaDB)
+├── EliteCars_v3/              # Versión PHP + MySQL
 └── screenshots/               # Capturas de pantalla del README
 ```
+
+***
+
+## Otras versiones del proyecto
+
+Este repositorio reúne también las versiones de Elite Cars con servidor, cada una en su carpeta y con su propio README:
+
+| Carpeta | Versión | Tecnologías |
+|---------|---------|-------------|
+| [`EliteCars_v2/`](EliteCars_v2/) | Tienda con backend en Java (proyecto Maven) | JSP, Servlets, MariaDB |
+| [`EliteCars_v3/`](EliteCars_v3/) | Tienda y panel de administración en PHP | PHP, MySQL |
+
+> La contraseña de la base de datos no se incluye en el repositorio. Para ejecutar estas versiones, sustituye `TU_CLAVE_BD` por la tuya en `EliteCars_v2/src/main/java/tienda/AccesoBD.java`, `EliteCars_v3/basedatos.php` y `EliteCars_v3/identificacion.php`.
 
 ***
 
