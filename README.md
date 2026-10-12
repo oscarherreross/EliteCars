@@ -62,19 +62,19 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 EliteCars/
 ├── Web/
 │   ├── FicherosHTML/
-│   │   ├── InicioEliteCars.html
-│   │   ├── EmpresaEliteCars.html
-│   │   ├── ContactoEliteCars.html
-│   │   ├── ProductosEliteCars.html
-│   │   ├── CarritoEliteCars.html
-│   │   ├── UsuarioEliteCars.html
-│   │   ├── UsuarioIniciadoEliteCars.html
-│   │   └── RegistrarUsuarioEliteCars.html
+│   │   ├── Inicio_EliteCars.html
+│   │   ├── Empresa_EliteCars.html
+│   │   ├── Contacto_EliteCars.html
+│   │   ├── Productos_EliteCars.html
+│   │   ├── Carrito_EliteCars.html
+│   │   ├── Usuario_EliteCars.html
+│   │   ├── UsuarioIniciado_EliteCars.html
+│   │   └── RegistrarUsuario_EliteCars.html
 │   ├── FicherosJS/
 │   │   ├── Cabecera_EliteCars.js  # Custom Element <mi-cabecera>
 │   │   └── PiePag_EliteCars.js    # Custom Element <mi-pie>
 │   ├── FicherosCSS/
-│   │   └── InicioEliteCars.css
+│   │   └── Inicio_EliteCars.css
 │   └── ImagenesCoches/        # Imágenes de los vehículos y logo
 ├── Admin/                     # Panel de administración
 ├── EliteCars_v2/              # Versión Java (JSP + Servlets + MariaDB)
@@ -111,13 +111,13 @@ Custom Element que inyecta el pie de página fijo con copyright y enlace a redes
 
 | Página | Archivo | Descripción |
 |--------|---------|-------------|
-| Inicio | `InicioEliteCars.html` | Portada del sitio |
-| Empresa | `EmpresaEliteCars.html` | Información sobre la empresa |
-| Contacto | `ContactoEliteCars.html` | Formulario de contacto con mapa y datos |
-| Productos | `ProductosEliteCars.html` | Catálogo de vehículos con precios |
-| Carrito | `CarritoEliteCars.html` | Cesta de la compra con totales |
-| Usuario (login) | `UsuarioEliteCars.html` | Inicio de sesión y registro |
-| Panel de usuario | `UsuarioIniciadoEliteCars.html` | Datos del cliente y pedidos |
+| Inicio | `Inicio_EliteCars.html` | Portada del sitio |
+| Empresa | `Empresa_EliteCars.html` | Información sobre la empresa |
+| Contacto | `Contacto_EliteCars.html` | Formulario de contacto con mapa y datos |
+| Productos | `Productos_EliteCars.html` | Catálogo de vehículos con precios |
+| Carrito | `Carrito_EliteCars.html` | Cesta de la compra con totales |
+| Usuario (login) | `Usuario_EliteCars.html` | Inicio de sesión y registro |
+| Panel de usuario | `UsuarioIniciado_EliteCars.html` | Datos del cliente y pedidos |
 
 ***
 
@@ -136,9 +136,9 @@ Custom Element que inyecta el pie de página fijo con copyright y enlace a redes
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Llarry793/EliteCars.git
+   git clone https://github.com/oscarherreross/EliteCars.git
    ```
-2. Abre `Web/FicherosHTML/InicioEliteCars.html` en tu navegador o usa un servidor estático:
+2. Abre `Web/FicherosHTML/Inicio_EliteCars.html` en tu navegador o usa un servidor estático:
    ```bash
    python -m http.server 8080
    ```
